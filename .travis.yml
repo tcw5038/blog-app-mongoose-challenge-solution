@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: mD6+2rh7LUKg/cHRD1VbQZJsFT5FGsQS5ZkPIj1OBV5Wi6zrhSO46sAJxTMYNuWpEgNY35zaEvfW2xvuyQ/b+PwfPjh4JM0fJuW48JYB4ki+UvehFh3E44k0rBOcl0IuGaLhw/Xi+KeVqQr043oZuSzIFIbgZTLMphgk9Q400TM3Lc8m/dPIYl7eTHtEIeZUnTLVbBvev4KCVwSNByRE0OANXmmomlQ705arVeIIs/h6F1IiTR52l23FeIGkDz7U8ETuJokOlKxB3rMdqhd5AoWBZ0rV3Z2l+rEsYl7C1KWtfFKFASS+awvB8PXaBe5qh8boxkEX+DHPd63Rkq3r/BXtfbAMl2RrRfl/zcR2Ka1p5u5n9YR3lNk8u4WB+98PAJ2un1spJ0V4AXNtn/T2VYrkOAdvgVTahDhQEGVFuanKW3az8IMuB8ZZIlzUmBd52R14WDX4m/gSwhURB0w+dpAPMrQdG6KjAeJkcMAv3wCV3W+7jzGr5rSBAt8NsspPo0lFQNPK1mn029MZdphmSPKX+uc6NVKKYXZ7Ek9qyWkQskjEpeUTxX8GPqYysLp7zZNMKgpwucEwAfqTNrtTQzswpHTHELNJWFGU5Rsi07kEVDvtaqTrROvX1BehtV81b/RGCf4+39Dkwhyzva+stmU41DTa7v724iRR0Ttbg+I=
+  app: lit-beach-36882
+  on:
+    repo: tcw5038/blog-app-mongoose-challenge-solution
